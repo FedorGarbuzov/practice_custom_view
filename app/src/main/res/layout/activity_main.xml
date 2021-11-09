@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/btnCircle"
+        android:background="@color/white">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ru.surftudio.practice_customview.CustomView
+        android:id="@+id/custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:lineWidth="20dp"
+        app:fontSize="50dp"
+        app:color1="@color/color1"
+        app:color2="@color/color2"
+        app:color3="@color/color3"
+        app:color4="@color/color4"
+        app:color5="@color/color5"
+        app:color6="@color/color6"
+        app:color7="@color/color7"/>
+</FrameLayout>
