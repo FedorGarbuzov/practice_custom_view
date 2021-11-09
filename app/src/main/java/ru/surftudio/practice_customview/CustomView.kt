@@ -118,7 +118,7 @@ class CustomView(
 
     private fun saveShape(canvas: Canvas) {
         val randomX = (Math.random() * 6 + 1).toFloat()
-        val randomY = (Math.random() * 8 + 1).toFloat()
+        val randomY = (Math.random() * 4 + 1).toFloat()
         when (drawingFigure) {
             1 -> {
                 val shapeRadius = radius * randomX
